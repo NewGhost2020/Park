@@ -1,0 +1,102 @@
+@media only screen and (max-width : 990px) {
+    .desk-form h1 {
+    font-size: 28px;
+}
+.row-input .label {
+    display: block;
+    clear: left;
+    float: none;
+    width: 0;
+    text-align: center;
+    padding: 7px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-reg, #enter, #del-prof {
+    margin: 40px 0 0 0;
+    cursor: pointer;
+    color: #3B3B3D;
+}    
+.row-link a {
+    display:block;
+    margin: 5px 0;
+}   
+.row-link p {
+    display: none;
+}
+.connect {
+    flex-direction: column;
+}
+.f-tel, .f-mail {
+    display: block;
+    text-align: center;  
+    padding: 2px;
+}  
+.f-tel {
+    order:1;
+}
+.f-mail {
+    order:2;
+}
+.connect p {
+    order: 3;
+}
+.connect img {
+    width: 20px;    
+}    
+.error {
+    margin-left: 0;
+}    
+.my-footer {
+    height: auto;
+}
+.row-input input[type="checkbox"] {
+    width: 20px;
+}
+h5 {
+    display: inline-block;
+    width: 300px;
+}
+.form-wrap a {
+    display: block;
+    margin: 5px 0;
+}
+#check-pass {
+    margin-left: 0;
+}
+#burger {
+    display: block;
+    float: right;
+    margin-top: 15px;
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logo img {
+    width: 250px;
+}
+.nav-is a {
+    padding: 0.5em;    
+}
+.nav-is {
+    float: none;
+    display: none;
+    z-index: 1;
+    /*position: relative;*/
+    position: absolute;
+    background-color: #f0f0f0;
+    width: 100%;
+    margin-left: -10px;
+}
+.nav-is li {
+    display: inline;
+}  
+.desk-form {
+    width: 85%;
+}
+.all_content {
+    margin-bottom: 0;
+}
+
+}
